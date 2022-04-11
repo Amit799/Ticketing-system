@@ -79,10 +79,12 @@ function NewTicket() {
                   value={Query}
                   onChange={(e) => setQuery(e.target.value)}
                 >
-                  <option value="Laptop">Laptop</option>
-                  <option value="Salary">Salary</option>
-                  <option value="department">department</option>
-                  <option value="project">project</option>
+                  <option value="System hardware">System hardware</option>
+                  <option value="Human Resource">Human Resource</option>
+                  <option value="Infra">Infra</option>
+                  <option value="Project">Project</option>
+                  <option value="Client">Client</option>
+
                 </select>
               </div>
               <div className="form-group">
